@@ -1,0 +1,61 @@
+======================================================================
+PD-1 / PD-L1 DOMAIN ARCHITECTURE  (live UniProt pull)
+======================================================================
+
+--- PD1  (UniProt Q15116)  Programmed cell death protein 1 (PDCD1) ---
+Full length: 288 aa
+
+  SIGNAL PEPTIDE:
+    - 1-24
+
+  TM HELIX:
+    - 171-191: Helical
+
+  TOPOLOGICAL DOMAIN:
+    - 25-170: Extracellular
+    - 192-288: Cytoplasmic
+
+  DOMAIN (Ig-fold etc.):
+    - 35-145: Ig-like V-type
+
+  N-GLYCOSYLATION SITE:
+    - 49: N-linked (GlcNAc...) asparagine
+    - 58: N-linked (GlcNAc...) asparagine
+    - 74: N-linked (GlcNAc...) asparagine
+    - 116: N-linked (GlcNAc...) asparagine
+
+----------------------------------------------------------------------
+
+--- PDL1  (UniProt Q9NZQ7)  Programmed cell death 1 ligand 1 (CD274) ---
+Full length: 290 aa
+
+  SIGNAL PEPTIDE:
+    - 1-18
+
+  TM HELIX:
+    - 239-259: Helical
+
+  TOPOLOGICAL DOMAIN:
+    - 19-238: Extracellular
+    - 260-290: Cytoplasmic
+
+  DOMAIN (Ig-fold etc.):
+    - 19-127: Ig-like V-type
+    - 133-225: Ig-like C2-type
+
+  N-GLYCOSYLATION SITE:
+    - 35: N-linked (GlcNAc...) asparagine
+    - 192: N-linked (GlcNAc...) asparagine
+    - 200: N-linked (GlcNAc...) asparagine
+    - 219: N-linked (GlcNAc...) asparagine
+
+----------------------------------------------------------------------
+
+NOTES:
+- TM HELIX here is UniProt's curated annotation. Cross-validate it
+  independently via TMHMM 2.0 or DeepTMHMM if you want a second
+  opinion before trusting it for membrane orientation.
+- N-glycosylation sites won't be modeled in the final geometry but
+  matter for interpretation near the stalk/ectodomain junction.
+- Use TOPOLOGICAL DOMAIN entries (not just TM boundaries) to define
+  ectodomain vs stalk vs TM vs cytoplasmic cut points.

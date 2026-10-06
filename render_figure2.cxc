@@ -1,0 +1,33 @@
+# Figure 2 re-render with the CORRECTED epitope sets (consensus over copies, 4.5 A, UniProt numbering = 4ZQK numbering).
+# Chains from the 4ZQK header: A = PD-L1, B = PD-1. Residues absent from the 4ZQK construct are ignored by ChimeraX.
+# Colours are given by NAME (not hex) because '#' also starts a model number in ChimeraX atom specs.
+# Later colour commands overwrite earlier ones where epitopes overlap.
+
+open 4zqk
+set bgColor white
+hide atoms
+cartoon
+
+color /A tan target c
+color /B gray target c
+
+color /A:49,51,52,54,56,58,59,60,61,62,63,66,68,69,111,113,115,117,119,120,121,122,123,125 dodgerblue target c
+color /A:54,56,58,59,60,61,62,63,66,69,73,75,76,78,113,115,117,121,123,125 forestgreen target c
+color /A:23,26,56,58,59,60,61,111,112,113,115,121,122,123,124,125,127 hotpink target c
+color /A:56,58,59,60,61,113,115,121,123,125 red target c
+
+color /B:62,63,64,66,68,76,77,78,81,83,126,128,129,132 gold target c
+color /B:59,60,128,129,130,131,132 darkorange target c
+
+show /B:78 atoms
+style /B:78 stick
+label /B:78 text Lys78 height 1.2
+
+view
+lighting soft
+graphics silhouettes true
+save ~/Downloads/figure2_rerender.png width 2000 supersample 3
+
+# Legend: PD-L1 (chain A, tan): atezolizumab dodgerblue, avelumab forestgreen, durvalumab hotpink,
+#   shared by all three = red.  PD-1 (chain B, gray): pembrolizumab gold, nivolumab darkorange (overlap shows orange).
+# The dashed line labelled '8 residues' on chain B marks the unresolved segment 85-92. To hide it:  hide #1 pbonds

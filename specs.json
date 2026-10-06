@@ -1,0 +1,8 @@
+{
+  "4ZQK": {"PD1_chain": "B", "PDL1_chain": "A"},
+  "5B8C": {"antigen": "PD1",  "ag_chains": ["C","F","I","L"], "heavy": ["B","E","H","K"], "light": ["A","D","G","J"], "ab_chains": ["A","B","D","E","G","H","J","K"]},
+  "5WT9": {"antigen": "PD1",  "ag_chains": ["G"], "heavy": ["H"], "light": ["L"], "ab_chains": ["H","L"]},
+  "5X8L": {"antigen": "PDL1", "ag_chains": ["A","B","C","D","E"], "heavy": ["F","G","H","J","S"], "light": ["K","L","M","N","O"], "ab_chains": ["F","G","H","J","K","L","M","N","O","S"]},
+  "5X8M": {"antigen": "PDL1", "ag_chains": ["A"], "heavy": ["B"], "light": ["C"], "ab_chains": ["B","C"]},
+  "5GRJ": {"antigen": "PDL1", "ag_chains": ["A"], "heavy": ["H"], "light": ["L"], "ab_chains": ["H","L"]}
+}

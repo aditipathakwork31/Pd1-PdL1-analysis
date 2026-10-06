@@ -1,0 +1,55 @@
+# Item 12: independent epitope cross-check, ChimeraX native commands only.
+# Run in ChimeraX with:   open /full/path/to/item12_epitope_crosscheck.cxc
+# Output files are written to the Desktop. If any command prints red text the script stops: copy that text.
+cd ~/Desktop
+log clear
+version
+log save chimerax_version.html
+
+# ---------- Part 1: 5X8M (durvalumab, single copy). Expect 15 / 17 / 17 residues at 4.0 / 4.5 / 5.0 A
+close session
+open 5x8m
+info chains #1
+select /A & protein & ((/B,C & protein) :<4.0)
+info residues sel attribute number saveFile 5x8m_4.0.txt
+select /A & protein & ((/B,C & protein) :<4.5)
+info residues sel attribute number saveFile 5x8m_4.5.txt
+select /A & protein & ((/B,C & protein) :<5.0)
+info residues sel attribute number saveFile 5x8m_5.0.txt
+log save item12_part1_5x8m.html
+
+# ---------- Part 2: 5GRJ (avelumab, single copy). Expect 17 / 20 / 22
+close session
+open 5grj
+info chains #1
+select /A & protein & ((/H,L & protein) :<4.0)
+info residues sel attribute number saveFile 5grj_4.0.txt
+select /A & protein & ((/H,L & protein) :<4.5)
+info residues sel attribute number saveFile 5grj_4.5.txt
+select /A & protein & ((/H,L & protein) :<5.0)
+info residues sel attribute number saveFile 5grj_5.0.txt
+log save item12_part2_5grj.html
+
+# ---------- Part 3: 5B8C (pembrolizumab, 4 copies): packing correction
+# Expect C with own Fv (A,B) = 27; C with all 8 antibody chains = about 45; I with own Fv (G,H) = 23
+close session
+open 5b8c
+info chains #1
+select /C & protein & ((/A,B & protein) :<4.5)
+info residues sel attribute number saveFile 5b8c_C_own.txt
+select /C & protein & ((/A,B,D,E,G,H,J,K & protein) :<4.5)
+info residues sel attribute number saveFile 5b8c_C_all.txt
+select /I & protein & ((/G,H & protein) :<4.5)
+info residues sel attribute number saveFile 5b8c_I_own.txt
+log save item12_part3_5b8c.html
+
+# ---------- Part 4: 5X8L (atezolizumab, 5 copies): packing correction, extra check
+# Expect copy A with all 10 antibody chains = 40; with its own pair (F,K) = between 24 and 30
+close session
+open 5x8l
+info chains #1
+select /A & protein & ((/F,G,H,S,J,K,L,M,N,O & protein) :<4.5)
+info residues sel attribute number saveFile 5x8l_A_all.txt
+select /A & protein & ((/F,K & protein) :<4.5)
+info residues sel attribute number saveFile 5x8l_A_own.txt
+log save item12_part4_5x8l.html

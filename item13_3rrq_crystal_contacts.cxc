@@ -1,0 +1,16 @@
+# Item 13 (remaining part): do crystal contacts touch PD-1 residues 71-76 in 3RRQ?
+# Run in ChimeraX with:   open /full/path/to/item13_3rrq_crystal_contacts.cxc
+cd ~/Desktop
+close session
+log clear
+open 3rrq
+info chains #1
+# builds symmetry-related copies within 5 A of the asymmetric unit as new models (#2, #3, ...)
+crystalcontacts #1 distance 5 copies true
+# Symmetry-copy residues within 4.5 A of the 71-76 loop (look at the Log: "N residues ... selected"; "Nothing selected" = no contacts)
+select #2-99 & protein & (#1/A:71-76 :<4.5)
+info residues sel attribute number saveFile 3rrq_copy_residues_near_loop.txt
+# Loop residues that touch a symmetry copy
+select #1/A:71-76 & (#2-99 & protein @<4.5)
+info residues sel attribute number saveFile 3rrq_loop_residues_in_contact.txt
+log save item13_3rrq_crystal_contacts.html
