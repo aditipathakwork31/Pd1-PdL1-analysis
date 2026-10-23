@@ -31,7 +31,15 @@ It also checks the two AlphaFold files against the SHA-1 values above and prints
 Check that the inputs are right: 4ZQK chain A must be PD-L1 and chain B PD-1; `specs.json` lists the antigen, heavy and light chains for the antibody structures.
 
 ## Run order
+Place the input structures in `structures/` (see Inputs), then:
 
+1. `python pd1_pdl1_revision_checks.py selftest`, then `meta`, `search`, `mapping --residue 78`, `epitope --specs specs.json`, `apo`, and `interface --pdb 5IUS --pd1-chain A --pdl1-chain C` (and B/D). These download from RCSB/PDBe/UniProt and reproduce the epitope, apo and interface results.
+2. `python phase3_manual_orient.py` orients the AlphaFold models from the TM helix axis.
+3. `python phase4_span_calculator.py` builds the hybrid model (`phase4_grafted_model.pdb`) and prints three spans.
+4. `python span_robustness.py phase4_grafted_model.pdb` gives span under different normals, tilt sensitivity, clash count (195, falling to 21 after trimming) and pLDDT.
+5. `python trim_hybrid.py phase4_grafted_model.pdb phase4_grafted_model_trimmed.pdb` removes signal peptides and cytoplasmic tails.
+
+The full console output of steps 2-5 is in `run_log.txt`.
 ## Expected results (use these to check a re-run)
 
 - `selftest` prints `selftest OK`. `mapping` prints UniProt Q15116 residue 78 = K and chain B author residue 78 = LYS in 4ZQK.
