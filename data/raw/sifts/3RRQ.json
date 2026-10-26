@@ -1,0 +1,1 @@
+{"3rrq":{"UniProt":{"Q15116":{"name":"PDCD1_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":32,"unp_end":160,"start":{"author_residue_number":null,"author_insertion_code":"","residue_number":1},"end":{"author_residue_number":null,"author_insertion_code":"","residue_number":129},"identity":0.99,"coverage":0.489}],"identifier":"PDCD1_HUMAN"}}}}

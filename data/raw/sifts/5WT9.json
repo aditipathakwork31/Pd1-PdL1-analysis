@@ -1,0 +1,1 @@
+{"5wt9":{"UniProt":{"Q15116":{"name":"PDCD1_HUMAN","mappings":[{"entity_id":3,"chain_id":"G","struct_asym_id":"C","unp_start":1,"unp_end":167,"start":{"author_residue_number":null,"author_insertion_code":"","residue_number":1},"end":{"author_residue_number":null,"author_insertion_code":"","residue_number":167},"identity":0.98,"coverage":0.542}],"identifier":"PDCD1_HUMAN"}}}}

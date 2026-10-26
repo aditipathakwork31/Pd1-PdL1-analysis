@@ -1,0 +1,1 @@
+{"5grj":{"UniProt":{"Q9NZQ7":{"name":"PD1L1_HUMAN","mappings":[{"entity_id":3,"chain_id":"A","struct_asym_id":"C","unp_start":18,"unp_end":238,"start":{"author_residue_number":18,"author_insertion_code":"","residue_number":1},"end":{"author_residue_number":null,"author_insertion_code":"","residue_number":221},"identity":1.0,"coverage":0.809}],"identifier":"PD1L1_HUMAN"}}}}

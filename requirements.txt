@@ -1,0 +1,6 @@
+biopython==1.88
+numpy==2.5.3
+requests==2.34.2
+matplotlib==3.11.2
+scipy
+pytest
