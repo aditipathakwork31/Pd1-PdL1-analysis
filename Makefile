@@ -22,4 +22,9 @@ link:
 test:
 	$(PY) -m pytest -q tests
 
-.PHONY: env fetch verify link compare test
+.PHONY: env fetch verify link compare test geometry
+geometry: link
+	$(PY) src/phase3_manual_orient.py
+	$(PY) src/phase4_span_calculator.py
+	mv phase4_grafted_model.pdb outputs/
+	$(PY) src/span_robustness.py outputs/phase4_grafted_model.pdb | tee outputs/span_robustness.txt

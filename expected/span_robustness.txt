@@ -1,0 +1,28 @@
+1. NORMALS AND SPANS (normals point from TM midpoint toward own ectodomain)
+   angle between normals 133.0 deg (180 = facing, parallel membranes); deviation from antiparallel 47.0 deg
+   span along PD-1 normal 15.22 nm | along PD-L1 normal 17.39 nm | direct 18.10 nm | along common normal 17.78 nm
+
+2. TILT SENSITIVITY (each normal tilted by theta in 12 azimuths, all 144 combinations; nm)
+   tilt  0 deg: along PD-1 normal 15.2-15.2; along PD-L1 normal 17.4-17.4; common normal 17.8-17.8; mismatch 47-47 deg
+   tilt 10 deg: along PD-1 normal 13.3-16.6; along PD-L1 normal 16.3-18.0; common normal 16.9-18.1; mismatch 27-67 deg
+   tilt 20 deg: along PD-1 normal 11.0-17.6; along PD-L1 normal 14.7-18.0; common normal 15.4-18.1; mismatch 8-87 deg
+   tilt 30 deg: along PD-1 normal 8.4-18.0; along PD-L1 normal 12.6-17.5; common normal 13.4-18.1; mismatch 7-107 deg
+   smallest mismatch reachable with each normal tilted <= 30 deg: 0.3 deg
+
+4. CLASHES: 195 heavy-atom pairs PD-1 vs PD-L1 closer than 2.0 A
+   PD-1 ecto    vs PD-L1 signal : 80
+   PD-1 cyto    vs PD-L1 ecto   : 79
+   PD-1 ecto    vs PD-L1 ecto   : 21
+   PD-1 cyto    vs PD-L1 linker : 13
+   PD-1 signal  vs PD-L1 ecto   : 1
+   PD-1 cyto    vs PD-L1 ecto2  : 1
+   after removing signal peptides and cytoplasmic tails: 21 pairs
+   closest remaining: 0.98 A; residue pairs (PD-1, PD-L1): [(88, 19), (131, 56), (131, 63), (131, 66), (132, 56)]
+
+5. MEAN pLDDT (B-factor column)
+   PD-1 : signal 66, ecto 93, stalk 62, tm 89, cyto 55
+   PD-L1: signal 71, ecto 96, ecto2 96, stalk 67, tm 86, cyto 57
+   PD-1 stalk CA pLDDT min/mean/max 51/62/93
+   PD-L1 stalk CA pLDDT min/mean/max 49/67/96
+
+6. PD-L1 CA heights above the PD-1 membrane midplane: 4.0 to 20.8 nm; PD-1 CA heights above the PD-L1 midplane: 6.1 to 19.4 nm (positive throughout = no crossing)
