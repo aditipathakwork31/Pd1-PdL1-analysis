@@ -1,0 +1,410 @@
+protein,chain,resseq,resname,source,note,region,af_plddt,pae_to_anchor,crystal_resolved
+PD1,P,25,LEU,AF,,linker,54.2,13.28,0
+PD1,P,26,ASP,AF,,linker,56.9,10.4,0
+PD1,P,27,SER,AF,,linker,57.2,9.52,0
+PD1,P,28,PRO,AF,,linker,58.9,8.8,0
+PD1,P,29,ASP,AF,,linker,65.1,7.02,0
+PD1,P,30,ARG,AF,,linker,71.9,6.43,0
+PD1,P,31,PRO,AF,,linker,77.8,5.4,0
+PD1,P,32,TRP,AF,,linker,85.5,4.39,0
+PD1,P,33,ASN,crystal,,linker,90.8,4.17,1
+PD1,P,34,PRO,crystal,,linker,93.9,3.77,1
+PD1,P,35,PRO,crystal,,ecto,96.3,3.31,1
+PD1,P,36,THR,crystal,,ecto,97.6,3.59,1
+PD1,P,37,PHE,crystal,,ecto,98.3,3.24,1
+PD1,P,38,SER,crystal,,ecto,98.2,3.85,1
+PD1,P,39,PRO,crystal,,ecto,98.6,3.97,1
+PD1,P,40,ALA,crystal,,ecto,98.4,4.02,1
+PD1,P,41,LEU,crystal,,ecto,98.5,4.11,1
+PD1,P,42,LEU,crystal,,ecto,98.5,3.95,1
+PD1,P,43,VAL,crystal,,ecto,98.3,4.41,1
+PD1,P,44,VAL,crystal,,ecto,97.8,4.4,1
+PD1,P,45,THR,crystal,,ecto,97.3,4.74,1
+PD1,P,46,GLU,crystal,,ecto,97.2,4.58,1
+PD1,P,47,GLY,crystal,,ecto,96.3,4.67,1
+PD1,P,48,ASP,crystal,,ecto,97.1,4.5,1
+PD1,P,49,ASN,crystal,,ecto,97.8,4.16,1
+PD1,P,50,ALA,crystal,,ecto,98.2,3.73,1
+PD1,P,51,THR,crystal,,ecto,98.3,3.6,1
+PD1,P,52,PHE,crystal,,ecto,98.7,3.34,1
+PD1,P,53,THR,crystal,,ecto,98.3,3.37,1
+PD1,P,54,CYS,crystal,,ecto,98.2,3.14,1
+PD1,P,55,SER,crystal,,ecto,96.7,3.41,1
+PD1,P,56,PHE,crystal,,ecto,94.0,3.2,1
+PD1,P,57,SER,crystal,,ecto,83.2,4.08,1
+PD1,P,58,ASN,crystal,,ecto,73.9,4.42,1
+PD1,P,59,THR,crystal,,ecto,66.5,5.45,1
+PD1,P,60,SER,crystal,,ecto,70.8,4.8,1
+PD1,P,61,GLU,crystal,,ecto,69.5,4.73,1
+PD1,P,62,SER,crystal,,ecto,86.0,3.94,1
+PD1,P,63,PHE,crystal,,ecto,90.7,3.3,1
+PD1,P,64,VAL,crystal,,ecto,93.2,3.05,1
+PD1,P,65,LEU,crystal,,ecto,95.2,2.86,1
+PD1,P,66,ASN,crystal,,ecto,95.9,3.0,1
+PD1,P,67,TRP,crystal,,ecto,97.2,2.93,1
+PD1,P,68,TYR,crystal,,ecto,96.6,3.14,1
+PD1,P,69,ARG,crystal,,ecto,96.6,3.25,1
+PD1,P,70,MET,crystal,,ecto,95.6,3.63,1
+PD1,P,71,SER,crystal,,ecto,89.6,4.23,1
+PD1,P,72,PRO,crystal,,ecto,85.8,4.84,1
+PD1,P,73,SER,crystal,,ecto,89.0,4.98,1
+PD1,P,74,ASN,crystal,,ecto,86.1,4.81,1
+PD1,P,75,GLN,crystal,,ecto,90.5,4.2,1
+PD1,P,76,THR,crystal,,ecto,91.1,3.71,1
+PD1,P,77,ASP,crystal,,ecto,92.6,3.44,1
+PD1,P,78,LYS,crystal,,ecto,94.0,3.3,1
+PD1,P,79,LEU,crystal,,ecto,94.7,3.14,1
+PD1,P,80,ALA,crystal,,ecto,95.5,3.05,1
+PD1,P,81,ALA,crystal,,ecto,95.1,3.06,1
+PD1,P,82,PHE,crystal,,ecto,93.8,2.84,1
+PD1,P,83,PRO,crystal,,ecto,92.5,3.39,1
+PD1,P,84,GLU,crystal,,ecto,91.2,3.53,1
+PD1,P,85,ASP,AF,unresolved in crystal; AF-placed loop,ecto,85.1,3.81,0
+PD1,P,86,ARG,AF,unresolved in crystal; AF-placed loop,ecto,80.0,4.64,0
+PD1,P,87,SER,AF,unresolved in crystal; AF-placed loop,ecto,74.7,4.97,0
+PD1,P,88,GLN,AF,unresolved in crystal; AF-placed loop,ecto,69.5,4.95,0
+PD1,P,89,PRO,AF,unresolved in crystal; AF-placed loop,ecto,73.7,5.37,0
+PD1,P,90,GLY,AF,unresolved in crystal; AF-placed loop,ecto,74.4,5.01,0
+PD1,P,91,GLN,AF,unresolved in crystal; AF-placed loop,ecto,81.5,4.11,0
+PD1,P,92,ASP,AF,unresolved in crystal; AF-placed loop,ecto,90.6,3.91,0
+PD1,P,93,SER,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,91.2,3.86,1
+PD1,P,94,ARG,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,95.9,3.81,1
+PD1,P,95,PHE,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.4,3.35,1
+PD1,P,96,ARG,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,95.6,3.41,1
+PD1,P,97,VAL,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.8,3.03,1
+PD1,P,98,THR,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,95.8,3.53,1
+PD1,P,99,GLN,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,95.5,3.47,1
+PD1,P,100,LEU,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,95.6,3.72,1
+PD1,P,101,PRO,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,95.0,4.13,1
+PD1,P,102,ASN,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,92.6,4.18,1
+PD1,P,103,GLY,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,90.0,3.97,1
+PD1,P,104,ARG,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,93.0,3.6,1
+PD1,P,105,ASP,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.2,3.41,1
+PD1,P,106,PHE,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.4,3.15,1
+PD1,P,107,HIS,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.8,3.39,1
+PD1,P,108,MET,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,98.1,3.02,1
+PD1,P,109,SER,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.9,3.49,1
+PD1,P,110,VAL,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.8,3.5,1
+PD1,P,111,VAL,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.3,4.01,1
+PD1,P,112,ARG,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.6,4.35,1
+PD1,P,113,ALA,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.6,3.97,1
+PD1,P,114,ARG,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.8,4.11,1
+PD1,P,115,ARG,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,95.6,4.41,1
+PD1,P,116,ASN,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,94.4,4.14,1
+PD1,P,117,ASP,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.2,3.58,1
+PD1,P,118,SER,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.1,4.07,1
+PD1,P,119,GLY,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.8,3.79,1
+PD1,P,120,THR,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.6,3.79,1
+PD1,P,121,TYR,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,98.2,3.21,1
+PD1,P,122,LEU,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,98.1,3.06,1
+PD1,P,123,CYS,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.6,2.89,1
+PD1,P,124,GLY,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.4,2.92,1
+PD1,P,125,ALA,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,95.0,2.97,1
+PD1,P,126,ILE,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,92.5,3.25,1
+PD1,P,127,SER,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,89.4,3.63,1
+PD1,P,128,LEU,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,85.6,3.9,1
+PD1,P,129,ALA,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,74.9,4.66,1
+PD1,P,130,PRO,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,74.5,5.03,1
+PD1,P,131,LYS,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,81.2,4.7,1
+PD1,P,132,ALA,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,86.7,4.3,1
+PD1,P,133,GLN,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,88.6,3.81,1
+PD1,P,134,ILE,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,91.9,3.57,1
+PD1,P,135,LYS,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,93.3,3.51,1
+PD1,P,136,GLU,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.4,3.38,1
+PD1,P,137,SER,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.6,3.4,1
+PD1,P,138,LEU,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.4,3.62,1
+PD1,P,139,ARG,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.4,3.52,1
+PD1,P,140,ALA,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,98.2,3.53,1
+PD1,P,141,GLU,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,98.1,3.82,1
+PD1,P,142,LEU,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,98.4,3.66,1
+PD1,P,143,ARG,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,98.1,4.24,1
+PD1,P,144,VAL,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,97.9,4.13,1
+PD1,P,145,THR,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",ecto,96.8,5.0,1
+PD1,P,146,GLU,crystal,"residue 93 is Ser in crystal (C93S), Cys in AF",stalk,92.6,5.21,1
+PD1,P,147,ARG,AF,,stalk,86.4,5.63,0
+PD1,P,148,ARG,AF,,stalk,77.0,6.58,0
+PD1,P,149,ALA,AF,,stalk,70.0,7.51,0
+PD1,P,150,GLU,AF,,stalk,66.5,8.32,0
+PD1,P,151,VAL,AF,,stalk,66.9,9.57,0
+PD1,P,152,PRO,AF,,stalk,58.5,10.74,0
+PD1,P,153,THR,AF,,stalk,58.4,12.82,0
+PD1,P,154,ALA,AF,,stalk,58.2,14.64,0
+PD1,P,155,HIS,AF,,stalk,55.1,16.07,0
+PD1,P,156,PRO,AF,,stalk,58.8,18.4,0
+PD1,P,157,SER,AF,,stalk,52.0,19.54,0
+PD1,P,158,PRO,AF,,stalk,56.9,20.19,0
+PD1,P,159,SER,AF,,stalk,56.6,21.65,0
+PD1,P,160,PRO,AF,,stalk,53.8,23.46,0
+PD1,P,161,ARG,AF,,stalk,53.4,23.73,0
+PD1,P,162,PRO,AF,,stalk,53.9,24.58,0
+PD1,P,163,ALA,AF,,stalk,51.4,24.42,0
+PD1,P,164,GLY,AF,,stalk,53.6,24.86,0
+PD1,P,165,GLN,AF,,stalk,57.3,24.96,0
+PD1,P,166,PHE,AF,,stalk,58.4,23.78,0
+PD1,P,167,GLN,AF,,stalk,60.0,24.2,0
+PD1,P,168,THR,AF,,stalk,60.5,25.73,0
+PD1,P,169,LEU,AF,,stalk,69.5,25.99,0
+PD1,P,170,VAL,AF,,stalk,74.9,26.2,0
+PD1,P,171,VAL,AF,,tm,75.4,26.28,0
+PD1,P,172,GLY,AF,,tm,75.4,26.69,0
+PD1,P,173,VAL,AF,,tm,83.1,26.86,0
+PD1,P,174,VAL,AF,,tm,85.9,26.8,0
+PD1,P,175,GLY,AF,,tm,85.5,27.58,0
+PD1,P,176,GLY,AF,,tm,87.5,28.23,0
+PD1,P,177,LEU,AF,,tm,92.1,27.71,0
+PD1,P,178,LEU,AF,,tm,92.2,28.04,0
+PD1,P,179,GLY,AF,,tm,90.4,28.54,0
+PD1,P,180,SER,AF,,tm,90.8,28.43,0
+PD1,P,181,LEU,AF,,tm,94.7,27.94,0
+PD1,P,182,VAL,AF,,tm,94.2,28.35,0
+PD1,P,183,LEU,AF,,tm,94.7,28.37,0
+PD1,P,184,LEU,AF,,tm,94.8,28.11,0
+PD1,P,185,VAL,AF,,tm,94.2,28.64,0
+PD1,P,186,TRP,AF,,tm,94.4,27.92,0
+PD1,P,187,VAL,AF,,tm,93.5,28.51,0
+PD1,P,188,LEU,AF,,tm,93.3,28.41,0
+PD1,P,189,ALA,AF,,tm,90.3,28.83,0
+PD1,P,190,VAL,AF,,tm,88.6,28.19,0
+PD1,P,191,ILE,AF,,tm,87.7,28.08,0
+PDL1,L,18,ALA,crystal,,signal,80.9,3.99,1
+PDL1,L,19,PHE,crystal,,ecto,91.4,3.0,1
+PDL1,L,20,THR,crystal,,ecto,95.0,2.77,1
+PDL1,L,21,VAL,crystal,,ecto,97.3,2.46,1
+PDL1,L,22,THR,crystal,,ecto,97.6,2.53,1
+PDL1,L,23,VAL,crystal,,ecto,97.9,2.46,1
+PDL1,L,24,PRO,crystal,,ecto,97.2,2.74,1
+PDL1,L,25,LYS,crystal,,ecto,96.3,2.9,1
+PDL1,L,26,ASP,crystal,,ecto,95.4,2.87,1
+PDL1,L,27,LEU,crystal,,ecto,98.2,2.76,1
+PDL1,L,28,TYR,crystal,,ecto,98.1,2.74,1
+PDL1,L,29,VAL,crystal,,ecto,96.8,2.97,1
+PDL1,L,30,VAL,crystal,,ecto,97.4,2.81,1
+PDL1,L,31,GLU,crystal,,ecto,96.4,3.22,1
+PDL1,L,32,TYR,crystal,,ecto,96.2,3.15,1
+PDL1,L,33,GLY,crystal,,ecto,95.2,3.17,1
+PDL1,L,34,SER,crystal,,ecto,97.3,3.07,1
+PDL1,L,35,ASN,crystal,,ecto,98.2,2.77,1
+PDL1,L,36,MET,crystal,,ecto,98.1,2.5,1
+PDL1,L,37,THR,crystal,,ecto,98.4,2.47,1
+PDL1,L,38,ILE,crystal,,ecto,98.3,2.17,1
+PDL1,L,39,GLU,crystal,,ecto,98.5,2.17,1
+PDL1,L,40,CYS,crystal,,ecto,98.3,2.11,1
+PDL1,L,41,LYS,crystal,,ecto,98.1,2.22,1
+PDL1,L,42,PHE,crystal,,ecto,97.1,2.26,1
+PDL1,L,43,PRO,crystal,,ecto,95.5,2.51,1
+PDL1,L,44,VAL,crystal,,ecto,94.4,2.53,1
+PDL1,L,45,GLU,crystal,,ecto,86.6,3.16,1
+PDL1,L,46,LYS,crystal,,ecto,86.1,3.39,1
+PDL1,L,47,GLN,crystal,,ecto,92.1,3.0,1
+PDL1,L,48,LEU,crystal,,ecto,94.6,2.67,1
+PDL1,L,49,ASP,crystal,,ecto,95.1,2.65,1
+PDL1,L,50,LEU,crystal,,ecto,94.8,2.5,1
+PDL1,L,51,ALA,crystal,,ecto,94.8,2.69,1
+PDL1,L,52,ALA,crystal,,ecto,95.1,2.58,1
+PDL1,L,53,LEU,crystal,,ecto,97.2,2.31,1
+PDL1,L,54,ILE,crystal,,ecto,97.5,2.28,1
+PDL1,L,55,VAL,crystal,,ecto,98.2,1.97,1
+PDL1,L,56,TYR,crystal,,ecto,97.9,2.06,1
+PDL1,L,57,TRP,crystal,,ecto,98.4,1.94,1
+PDL1,L,58,GLU,crystal,,ecto,97.4,2.17,1
+PDL1,L,59,MET,crystal,,ecto,97.4,2.17,1
+PDL1,L,60,GLU,crystal,,ecto,87.8,2.73,1
+PDL1,L,61,ASP,crystal,,ecto,90.0,2.88,1
+PDL1,L,62,LYS,crystal,,ecto,96.3,2.41,1
+PDL1,L,63,ASN,crystal,,ecto,96.8,2.34,1
+PDL1,L,64,ILE,crystal,,ecto,98.0,2.05,1
+PDL1,L,65,ILE,crystal,,ecto,97.7,1.96,1
+PDL1,L,66,GLN,crystal,,ecto,97.1,2.16,1
+PDL1,L,67,PHE,crystal,,ecto,97.2,2.16,1
+PDL1,L,68,VAL,crystal,,ecto,96.2,2.37,1
+PDL1,L,69,HIS,crystal,,ecto,93.4,2.73,1
+PDL1,L,70,GLY,crystal,,ecto,91.6,2.7,1
+PDL1,L,71,GLU,crystal,,ecto,93.4,2.61,1
+PDL1,L,72,GLU,crystal,,ecto,92.1,2.5,1
+PDL1,L,73,ASP,crystal,,ecto,91.0,2.8,1
+PDL1,L,74,LEU,crystal,,ecto,91.1,2.82,1
+PDL1,L,75,LYS,crystal,,ecto,91.8,3.07,1
+PDL1,L,76,VAL,crystal,,ecto,93.8,2.93,1
+PDL1,L,77,GLN,crystal,,ecto,96.2,2.51,1
+PDL1,L,78,HIS,crystal,,ecto,97.2,2.5,1
+PDL1,L,79,SER,crystal,,ecto,96.2,2.83,1
+PDL1,L,80,SER,crystal,,ecto,94.9,2.7,1
+PDL1,L,81,TYR,crystal,,ecto,96.7,2.39,1
+PDL1,L,82,ARG,crystal,,ecto,94.9,2.72,1
+PDL1,L,83,GLN,crystal,,ecto,94.4,2.74,1
+PDL1,L,84,ARG,crystal,,ecto,96.9,2.52,1
+PDL1,L,85,ALA,crystal,,ecto,97.7,2.26,1
+PDL1,L,86,ARG,crystal,,ecto,96.4,2.28,1
+PDL1,L,87,LEU,crystal,,ecto,97.4,1.98,1
+PDL1,L,88,LEU,crystal,,ecto,97.0,2.23,1
+PDL1,L,89,LYS,crystal,,ecto,95.0,2.3,1
+PDL1,L,90,ASP,crystal,,ecto,94.7,2.58,1
+PDL1,L,91,GLN,crystal,,ecto,96.8,2.34,1
+PDL1,L,92,LEU,crystal,,ecto,96.9,2.2,1
+PDL1,L,93,SER,crystal,,ecto,93.6,2.48,1
+PDL1,L,94,LEU,crystal,,ecto,95.7,2.56,1
+PDL1,L,95,GLY,crystal,,ecto,97.2,2.23,1
+PDL1,L,96,ASN,crystal,,ecto,98.1,2.17,1
+PDL1,L,97,ALA,crystal,,ecto,98.2,1.92,1
+PDL1,L,98,ALA,crystal,,ecto,98.4,2.17,1
+PDL1,L,99,LEU,crystal,,ecto,98.4,2.01,1
+PDL1,L,100,GLN,crystal,,ecto,98.4,2.25,1
+PDL1,L,101,ILE,crystal,,ecto,98.5,2.28,1
+PDL1,L,102,THR,crystal,,ecto,98.2,2.7,1
+PDL1,L,103,ASP,crystal,,ecto,96.6,2.88,1
+PDL1,L,104,VAL,crystal,,ecto,97.5,2.66,1
+PDL1,L,105,LYS,crystal,,ecto,95.2,2.88,1
+PDL1,L,106,LEU,crystal,,ecto,94.6,2.98,1
+PDL1,L,107,GLN,crystal,,ecto,94.2,2.86,1
+PDL1,L,108,ASP,crystal,,ecto,96.8,2.45,1
+PDL1,L,109,ALA,crystal,,ecto,96.8,2.67,1
+PDL1,L,110,GLY,crystal,,ecto,97.6,2.55,1
+PDL1,L,111,VAL,crystal,,ecto,98.1,2.38,1
+PDL1,L,112,TYR,crystal,,ecto,98.4,2.19,1
+PDL1,L,113,ARG,crystal,,ecto,98.1,2.12,1
+PDL1,L,114,CYS,crystal,,ecto,98.0,2.0,1
+PDL1,L,115,MET,crystal,,ecto,98.0,2.17,1
+PDL1,L,116,ILE,crystal,,ecto,98.1,2.09,1
+PDL1,L,117,SER,crystal,,ecto,97.3,2.39,1
+PDL1,L,118,TYR,crystal,,ecto,95.9,2.41,1
+PDL1,L,119,GLY,crystal,,ecto,90.9,2.82,1
+PDL1,L,120,GLY,crystal,,ecto,93.2,2.72,1
+PDL1,L,121,ALA,crystal,,ecto,95.7,2.58,1
+PDL1,L,122,ASP,crystal,,ecto,97.8,2.44,1
+PDL1,L,123,TYR,crystal,,ecto,97.4,2.36,1
+PDL1,L,124,LYS,crystal,,ecto,97.9,2.32,1
+PDL1,L,125,ARG,crystal,,ecto,98.0,2.4,1
+PDL1,L,126,ILE,crystal,,ecto,98.4,2.35,1
+PDL1,L,127,THR,crystal,,ecto,98.4,2.55,1
+PDL1,L,128,VAL,crystal,,linker,98.4,2.6,1
+PDL1,L,129,LYS,crystal,,linker,97.2,2.87,1
+PDL1,L,130,VAL,crystal,,linker,96.7,2.93,1
+PDL1,L,131,ASN,crystal,,linker,95.2,3.41,1
+PDL1,L,132,ALA,crystal,,linker,96.2,3.47,1
+PDL1,L,133,PRO,AF,,ecto2,96.4,3.91,0
+PDL1,L,134,TYR,AF,,ecto2,97.4,4.18,0
+PDL1,L,135,ASN,AF,,ecto2,96.2,4.54,0
+PDL1,L,136,LYS,AF,,ecto2,96.6,4.83,0
+PDL1,L,137,ILE,AF,,ecto2,98.4,4.95,0
+PDL1,L,138,ASN,AF,,ecto2,98.1,5.4,0
+PDL1,L,139,GLN,AF,,ecto2,97.9,5.76,0
+PDL1,L,140,ARG,AF,,ecto2,97.7,6.39,0
+PDL1,L,141,ILE,AF,,ecto2,97.4,6.59,0
+PDL1,L,142,LEU,AF,,ecto2,95.8,7.28,0
+PDL1,L,143,VAL,AF,,ecto2,95.1,7.49,0
+PDL1,L,144,VAL,AF,,ecto2,94.8,7.56,0
+PDL1,L,145,ASP,AF,,ecto2,92.6,8.18,0
+PDL1,L,146,PRO,AF,,ecto2,89.6,8.89,0
+PDL1,L,147,VAL,AF,,ecto2,90.4,8.66,0
+PDL1,L,148,THR,AF,,ecto2,93.1,8.61,0
+PDL1,L,149,SER,AF,,ecto2,93.4,8.06,0
+PDL1,L,150,GLU,AF,,ecto2,96.1,7.61,0
+PDL1,L,151,HIS,AF,,ecto2,96.4,7.58,0
+PDL1,L,152,GLU,AF,,ecto2,97.8,6.98,0
+PDL1,L,153,LEU,AF,,ecto2,98.2,6.73,0
+PDL1,L,154,THR,AF,,ecto2,98.6,6.16,0
+PDL1,L,155,CYS,AF,,ecto2,98.6,5.78,0
+PDL1,L,156,GLN,AF,,ecto2,98.3,5.3,0
+PDL1,L,157,ALA,AF,,ecto2,98.2,4.84,0
+PDL1,L,158,GLU,AF,,ecto2,97.5,4.39,0
+PDL1,L,159,GLY,AF,,ecto2,96.8,3.99,0
+PDL1,L,160,TYR,AF,,ecto2,95.6,3.89,0
+PDL1,L,161,PRO,AF,,ecto2,95.5,4.1,0
+PDL1,L,162,LYS,AF,,ecto2,95.8,4.87,0
+PDL1,L,163,ALA,AF,,ecto2,97.4,4.75,0
+PDL1,L,164,GLU,AF,,ecto2,96.9,5.52,0
+PDL1,L,165,VAL,AF,,ecto2,98.2,5.72,0
+PDL1,L,166,ILE,AF,,ecto2,98.1,5.93,0
+PDL1,L,167,TRP,AF,,ecto2,98.5,6.55,0
+PDL1,L,168,THR,AF,,ecto2,98.2,6.42,0
+PDL1,L,169,SER,AF,,ecto2,96.6,6.61,0
+PDL1,L,170,SER,AF,,ecto2,94.9,7.09,0
+PDL1,L,171,ASP,AF,,ecto2,94.4,7.12,0
+PDL1,L,172,HIS,AF,,ecto2,91.9,7.24,0
+PDL1,L,173,GLN,AF,,ecto2,96.0,6.94,0
+PDL1,L,174,VAL,AF,,ecto2,97.2,6.72,0
+PDL1,L,175,LEU,AF,,ecto2,97.5,6.64,0
+PDL1,L,176,SER,AF,,ecto2,95.4,6.71,0
+PDL1,L,177,GLY,AF,,ecto2,96.4,6.57,0
+PDL1,L,178,LYS,AF,,ecto2,97.9,6.5,0
+PDL1,L,179,THR,AF,,ecto2,98.2,5.97,0
+PDL1,L,180,THR,AF,,ecto2,97.8,5.84,0
+PDL1,L,181,THR,AF,,ecto2,97.6,5.34,0
+PDL1,L,182,THR,AF,,ecto2,96.9,5.4,0
+PDL1,L,183,ASN,AF,,ecto2,95.2,5.07,0
+PDL1,L,184,SER,AF,,ecto2,93.9,4.9,0
+PDL1,L,185,LYS,AF,,ecto2,87.9,5.2,0
+PDL1,L,186,ARG,AF,,ecto2,83.0,4.98,0
+PDL1,L,187,GLU,AF,,ecto2,84.8,4.5,0
+PDL1,L,188,GLU,AF,,ecto2,83.3,4.82,0
+PDL1,L,189,LYS,AF,,ecto2,89.9,4.4,0
+PDL1,L,190,LEU,AF,,ecto2,95.8,4.04,0
+PDL1,L,191,PHE,AF,,ecto2,97.2,4.47,0
+PDL1,L,192,ASN,AF,,ecto2,97.8,4.88,0
+PDL1,L,193,VAL,AF,,ecto2,98.2,5.06,0
+PDL1,L,194,THR,AF,,ecto2,98.4,5.66,0
+PDL1,L,195,SER,AF,,ecto2,98.6,5.92,0
+PDL1,L,196,THR,AF,,ecto2,98.4,6.44,0
+PDL1,L,197,LEU,AF,,ecto2,98.4,6.48,0
+PDL1,L,198,ARG,AF,,ecto2,97.2,6.98,0
+PDL1,L,199,ILE,AF,,ecto2,97.1,7.21,0
+PDL1,L,200,ASN,AF,,ecto2,96.1,7.74,0
+PDL1,L,201,THR,AF,,ecto2,94.7,7.38,0
+PDL1,L,202,THR,AF,,ecto2,92.0,7.74,0
+PDL1,L,203,THR,AF,,ecto2,92.1,7.64,0
+PDL1,L,204,ASN,AF,,ecto2,93.4,7.48,0
+PDL1,L,205,GLU,AF,,ecto2,95.5,7.0,0
+PDL1,L,206,ILE,AF,,ecto2,97.4,6.66,0
+PDL1,L,207,PHE,AF,,ecto2,98.2,6.57,0
+PDL1,L,208,TYR,AF,,ecto2,98.4,6.2,0
+PDL1,L,209,CYS,AF,,ecto2,98.4,5.91,0
+PDL1,L,210,THR,AF,,ecto2,98.3,5.54,0
+PDL1,L,211,PHE,AF,,ecto2,98.4,5.09,0
+PDL1,L,212,ARG,AF,,ecto2,97.7,5.24,0
+PDL1,L,213,ARG,AF,,ecto2,95.2,4.87,0
+PDL1,L,214,LEU,AF,,ecto2,92.1,5.18,0
+PDL1,L,215,ASP,AF,,ecto2,85.9,5.28,0
+PDL1,L,216,PRO,AF,,ecto2,87.9,5.2,0
+PDL1,L,217,GLU,AF,,ecto2,93.2,5.16,0
+PDL1,L,218,GLU,AF,,ecto2,95.4,4.97,0
+PDL1,L,219,ASN,AF,,ecto2,97.1,5.08,0
+PDL1,L,220,HIS,AF,,ecto2,98.1,5.07,0
+PDL1,L,221,THR,AF,,ecto2,98.2,5.41,0
+PDL1,L,222,ALA,AF,,ecto2,98.2,5.62,0
+PDL1,L,223,GLU,AF,,ecto2,98.1,6.16,0
+PDL1,L,224,LEU,AF,,ecto2,97.9,6.35,0
+PDL1,L,225,VAL,AF,,ecto2,97.4,6.73,0
+PDL1,L,226,ILE,AF,,stalk,96.2,7.25,0
+PDL1,L,227,PRO,AF,,stalk,92.7,7.93,0
+PDL1,L,228,GLU,AF,,stalk,86.6,8.36,0
+PDL1,L,229,LEU,AF,,stalk,77.6,9.02,0
+PDL1,L,230,PRO,AF,,stalk,72.8,10.16,0
+PDL1,L,231,LEU,AF,,stalk,60.4,11.55,0
+PDL1,L,232,ALA,AF,,stalk,54.8,13.18,0
+PDL1,L,233,HIS,AF,,stalk,49.3,14.86,0
+PDL1,L,234,PRO,AF,,stalk,50.5,16.67,0
+PDL1,L,235,PRO,AF,,stalk,56.8,17.07,0
+PDL1,L,236,ASN,AF,,stalk,58.2,18.76,0
+PDL1,L,237,GLU,AF,,stalk,56.6,19.32,0
+PDL1,L,238,ARG,AF,,stalk,60.7,21.75,0
+PDL1,L,239,THR,AF,,tm,63.3,21.95,0
+PDL1,L,240,HIS,AF,,tm,66.8,22.16,0
+PDL1,L,241,LEU,AF,,tm,75.8,23.43,0
+PDL1,L,242,VAL,AF,,tm,78.4,23.72,0
+PDL1,L,243,ILE,AF,,tm,81.1,24.23,0
+PDL1,L,244,LEU,AF,,tm,87.2,24.78,0
+PDL1,L,245,GLY,AF,,tm,88.3,25.63,0
+PDL1,L,246,ALA,AF,,tm,89.5,25.83,0
+PDL1,L,247,ILE,AF,,tm,92.2,25.9,0
+PDL1,L,248,LEU,AF,,tm,93.1,26.19,0
+PDL1,L,249,LEU,AF,,tm,92.8,26.39,0
+PDL1,L,250,CYS,AF,,tm,91.9,26.3,0
+PDL1,L,251,LEU,AF,,tm,93.6,26.32,0
+PDL1,L,252,GLY,AF,,tm,91.3,27.09,0
+PDL1,L,253,VAL,AF,,tm,91.4,26.64,0
+PDL1,L,254,ALA,AF,,tm,89.8,26.54,0
+PDL1,L,255,LEU,AF,,tm,91.9,26.82,0
+PDL1,L,256,THR,AF,,tm,87.5,26.92,0
+PDL1,L,257,PHE,AF,,tm,88.2,26.3,0
+PDL1,L,258,ILE,AF,,tm,87.9,26.21,0
+PDL1,L,259,PHE,AF,,tm,85.4,25.76,0

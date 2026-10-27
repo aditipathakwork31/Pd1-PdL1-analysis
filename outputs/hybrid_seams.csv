@@ -1,0 +1,6 @@
+chain,res_i,res_j,source_i,source_j,c_n_distance,bonded
+P,32,33,AF,crystal,1.78,0
+P,84,85,crystal,AF,2.07,0
+P,92,93,AF,crystal,2.78,0
+P,146,147,crystal,AF,2.02,0
+L,132,133,crystal,AF,1.2,1

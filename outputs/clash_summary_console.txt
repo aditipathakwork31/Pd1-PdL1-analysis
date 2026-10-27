@@ -1,0 +1,16 @@
+61 cross-chain heavy-atom pairs closer than 3.0 A (PD-1 chain P vs PD-L1 chain L)
+
+pair source          <2.0   <2.5   <3.0  vdw_flag   (atom pairs)
+crystal-crystal         0      0     13         1
+crystal-AF             15     29     48        40
+AF-AF                   0      0      0         0
+
+Same table EXCLUDING PD-1 residues 85-92 (loop unresolved in the crystal):
+pair source          <2.0   <2.5   <3.0  vdw_flag
+crystal-crystal         0      0     13         1
+crystal-AF              0      0      0         0
+AF-AF                   0      0      0         0
+
+Residue pairs with any atom pair < 2.0 A:
+  PD-1 88 (ecto) - PD-L1 18 (signal): 0.62 A  [crystal-AF]
+  PD-1 88 (ecto) - PD-L1 19 (ecto): 1.27 A  [crystal-AF]

@@ -1,0 +1,28 @@
+PD1: 105 crystal-resolved residues; local fit on 21 interface C-alpha, fit RMSD 0.89 A
+   all       ca_global  median 0.48  90th pct 1.24  max 4.63
+   all       ca_local   median 1.18  90th pct 2.57  max 4.84
+   all       sc_global  median 0.75  90th pct 2.47  max 8.89
+   all       sc_local   median 1.81  90th pct 2.99  max 9.09
+   interface ca_global  median 0.56  90th pct 1.60  max 2.91
+   interface ca_local   median 0.55  90th pct 1.71  max 1.82
+   interface sc_global  median 1.85  90th pct 3.53  max 6.82
+   interface sc_local   median 1.58  90th pct 2.79  max 5.98
+   focus residues (those in the original 21 clashing pairs):
+   res name  pLDDT  CA_glob CA_loc  SC_glob SC_loc
+   131 LYS    81.2    2.91   1.82    3.94   2.75
+   132 ALA    86.7    1.47   0.71    2.06   1.45
+PDL1: 115 crystal-resolved residues; local fit on 18 interface C-alpha, fit RMSD 0.55 A
+   all       ca_global  median 0.40  90th pct 1.20  max 2.59
+   all       ca_local   median 0.44  90th pct 1.28  max 2.62
+   all       sc_global  median 0.66  90th pct 2.29  max 4.48
+   all       sc_local   median 0.73  90th pct 2.20  max 4.51
+   interface ca_global  median 0.39  90th pct 0.73  max 1.60
+   interface ca_local   median 0.32  90th pct 0.70  max 1.58
+   interface sc_global  median 1.42  90th pct 3.21  max 4.48
+   interface sc_local   median 1.52  90th pct 3.22  max 4.51
+   focus residues (those in the original 21 clashing pairs):
+   res name  pLDDT  CA_glob CA_loc  SC_glob SC_loc
+   19  PHE    91.4    0.44   0.29    1.85   1.83
+   56  TYR    97.9    0.33   0.41    4.48   4.51
+   63  ASN    96.8    0.22   0.18    2.87   2.82
+   66  GLN    97.1    0.13   0.14    2.08   2.16
