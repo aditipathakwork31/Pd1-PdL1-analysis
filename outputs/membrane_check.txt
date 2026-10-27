@@ -1,0 +1,10 @@
+Minimum heights of heavy atoms above the membrane midplane (nm):
+  own_P                4.77
+  own_L                3.53
+  L_vs_P_membrane      5.50
+  P_vs_L_membrane      8.48
+
+Pass (all minimum heights >= delta) for assumed midplane-to-surface offset delta:
+  delta 1.5 nm: PASS
+  delta 2.0 nm: PASS
+  delta 2.5 nm: PASS

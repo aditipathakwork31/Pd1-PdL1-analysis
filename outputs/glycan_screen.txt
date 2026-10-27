@@ -1,0 +1,9 @@
+protein   Asn  residue  ND2-to-partner (A)  verdict (flag <= 15 A, heuristic)
+PD-1       49      ASN                21.9  clear of partner
+PD-1       58      ASN                14.0  could contact partner
+PD-1       74      ASN                 6.0  could contact partner
+PD-1      116      ASN                16.8  clear of partner
+PD-L1      35      ASN                24.3  clear of partner
+PD-L1     192      ASN                34.7  clear of partner
+PD-L1     200      ASN                58.0  clear of partner
+PD-L1     219      ASN                30.1  clear of partner

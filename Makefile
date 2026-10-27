@@ -32,3 +32,6 @@ hybrid: geometry
 	$(PY) src/build_hybrid.py
 	$(PY) src/clash_table.py | tee outputs/clash_summary_console.txt
 	$(PY) src/af_vs_crystal.py | tee outputs/af_vs_crystal_console.txt
+	$(PY) src/region_confidence.py | tee outputs/region_confidence_console.txt
+	$(PY) src/membrane_check.py
+	$(PY) src/glycan_screen.py
