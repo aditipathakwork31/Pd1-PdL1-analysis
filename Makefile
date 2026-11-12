@@ -35,3 +35,4 @@ hybrid: geometry
 	$(PY) src/region_confidence.py | tee outputs/region_confidence_console.txt
 	$(PY) src/membrane_check.py
 	$(PY) src/glycan_screen.py
+	$(PY) src/feasible_span.py | tee outputs/feasible_span_console.txt

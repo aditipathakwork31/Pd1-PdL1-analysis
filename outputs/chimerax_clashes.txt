@@ -1,0 +1,48 @@
+Allowed overlap: 0.6
+H-bond overlap reduction: 0.4
+Ignore clashes between atoms separated by 4 bonds or less
+Detect intra-residue clashes: False
+Detect intra-molecule clashes: True
+
+40 clashes
+    atom1          atom2       overlap  distance
+/P GLN 88 CB   /L ALA 18 CA     3.142    0.618
+/P GLN 88 CB   /L ALA 18 CB     2.767    0.993
+/P GLN 88 CA   /L ALA 18 N      2.719    0.801
+/P GLN 88 CG   /L ALA 18 C      2.557    0.933
+/P GLN 88 CG   /L ALA 18 CA     2.294    1.466
+/P GLN 88 CA   /L ALA 18 CA     2.239    1.521
+/P GLN 88 N    /L ALA 18 N      2.188    1.092
+/P GLN 88 CG   /L PHE 19 N      1.947    1.573
+/P GLN 88 CB   /L ALA 18 N      1.839    1.681
+/P GLN 88 CG   /L ALA 18 CB     1.773    1.987
+/P GLN 88 CB   /L ALA 18 C      1.752    1.738
+/P GLN 88 NE2  /L PHE 19 C      1.638    1.612
+/P GLN 88 C    /L ALA 18 N      1.558    1.692
+/P GLN 88 CG   /L ALA 18 O      1.458    1.842
+/P GLN 88 N    /L ALA 18 CA     1.451    2.069
+/P GLN 88 CA   /L ALA 18 C      1.409    2.081
+/P GLN 88 CA   /L ALA 18 CB     1.401    2.359
+/P GLN 88 NE2  /L PHE 19 O      1.387    1.273
+/P GLN 88 CG   /L PHE 19 CA     1.177    2.583
+/P GLN 88 NE2  /L THR 20 N      1.087    2.193
+/P GLN 88 CD   /L ALA 18 CB     1.063    2.427
+/P GLN 88 NE2  /L THR 20 CG2    1.020    2.500
+/P GLN 88 CA   /L ALA 18 O      1.010    2.290
+/P GLN 88 OE1  /L ALA 18 CB     0.941    2.359
+/P GLN 88 CB   /L ALA 18 O      0.897    2.403
+/P SER 87 C    /L ALA 18 N      0.895    2.355
+/P GLN 88 NE2  /L THR 20 CA     0.891    2.629
+/P GLN 88 CD   /L ALA 18 CA     0.845    2.645
+/P GLN 88 CD   /L ALA 18 C      0.796    2.424
+/P GLU 136 CD  /L ARG 113 NH2   0.783    2.737
+/P GLN 88 CD   /L PHE 19 O      0.772    2.258
+/P GLN 88 CB   /L PHE 19 N      0.747    2.773
+/P GLN 88 C    /L ALA 18 CA     0.744    2.746
+/P GLN 88 N    /L ALA 18 C      0.740    2.510
+/P GLN 88 CD   /L PHE 19 N      0.738    2.512
+/P GLN 88 NE2  /L PHE 19 CA     0.733    2.787
+/P GLN 88 CG   /L ALA 18 N      0.720    2.800
+/P GLN 88 CD   /L PHE 19 C      0.707    2.513
+/P GLN 88 CG   /L PHE 19 C      0.684    2.806
+/P SER 87 CB   /L GLY 119 O     0.611    2.689

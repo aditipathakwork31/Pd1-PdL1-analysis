@@ -1,10 +1,10 @@
 # Clash figure for the crystal-core hybrid.
-# Run inside ChimeraX:  open /Users/apple/pd1_pdl1_repo/src/figure_clashes.cxc
+# Run inside ChimeraX: cd to the repo folder, then: open src/figure_clashes.cxc (paths below are relative to src/, hence ../outputs)
 close session
 windowsize 1200 800
-open /Users/apple/pd1_pdl1_repo/outputs/hybrid_crystal_core.pdb
+open ../outputs/hybrid_crystal_core.pdb
 set bgColor white
-graphics silhouettes true
+graphics silhouettes false
 hide atoms
 cartoon
 color /P:33-84,93-146 #5b6b7a target c
@@ -18,10 +18,11 @@ clashes /P restrict /L overlapCutoff 0.6 hbondAllowance 0.4 reveal true log true
 2dlabels text "Red: AlphaFold loop PD-1 85-92 (unresolved in crystal)" xpos 0.02 ypos 0.87 size 12 color #d62828
 2dlabels text "Pseudobonds: PD-1/PD-L1 heavy-atom clashes. Not a validated physical model." xpos 0.02 ypos 0.03 size 12 color black
 view
-save /Users/apple/pd1_pdl1_repo/outputs/figure_clash_overview.png width 1800 height 1200 supersample 3
+zoom 1.8
+save ../outputs/figure_clash_overview.png width 1800 supersample 3
 show /P:84-93 /L:18-20 atoms
 style /P:84-93 /L:18-20 stick
 label /P:88 /L:18,19 height 1.2
-view /P:88 /L:18-19 pad 1.5
-save /Users/apple/pd1_pdl1_repo/outputs/figure_clash_closeup.png width 1800 height 1200 supersample 3
-log save /Users/apple/pd1_pdl1_repo/outputs/figure_clashes_log.html
+view /P:88 /L:18-19 pad 0.3
+save ../outputs/figure_clash_closeup.png width 1800 supersample 3
+log save ../outputs/figure_clashes_log.html
