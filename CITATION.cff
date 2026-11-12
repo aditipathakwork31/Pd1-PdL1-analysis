@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "PD-1:PD-L1 geometric model and antibody epitope mapping"
+authors:
+  - family-names: Pathak
+    given-names: Aditi
+license: MIT
+repository-code: "https://github.com/aditipathakwork31/Pd1-PdL1-analysis"
