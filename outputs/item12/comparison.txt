@@ -1,0 +1,18 @@
+Reading from outputs/item12
+
+MATCH    5X8M durvalumab 4.0 A (manuscript range 15-17; pasted plan said 15): found 15, expected 15-17
+MATCH    5X8M durvalumab 4.5 A: found 17, expected 17
+          residue list: missing none; extra none
+MATCH    5X8M durvalumab 5.0 A: found 17, expected 17
+MATCH    5GRJ avelumab 4.0 A: found 17, expected 17
+MATCH    5GRJ avelumab 4.5 A: found 20, expected 20
+          residue list: missing none; extra none
+MATCH    5GRJ avelumab 5.0 A: found 22, expected 22
+MATCH    5B8C chain C, own Fv (A,B): found 27, expected 27
+MATCH    5B8C chain C, all 8 antibody chains (original method): found 45, expected 45
+MATCH    5B8C chain I, own Fv (G,H): found 23, expected 23
+MATCH    5X8L chain A, all 10 antibody chains (original method): found 40, expected 40
+MATCH    5X8L chain A, own pair (F,K); manuscript consensus 24 / union 30: found 27, expected 24-30
+
+CLOSE = off by 1-2 (possible 4.5 A boundary difference): send me the lists before changing the manuscript.
+DIFFERS = off by more: do not submit until the cause is found.

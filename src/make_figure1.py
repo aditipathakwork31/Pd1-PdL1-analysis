@@ -22,13 +22,16 @@ MODEL_MIN, MODEL_MAX = 15.22, 18.10
 # and surface-to-surface conventions (nm).
 SURFACE_OFFSET = 4.0
 
-# Reference values taken from the manuscript draft. UNVERIFIED: the measurement conventions and the values
-# themselves still have to be checked against the original papers (manuscript open item 9).
-TCR_PMHC = 13.0   # nm, approximate (Cordoba et al. 2013 is cited for this value in the manuscript)
-IGSF_PAIRS = 15.0  # nm, approximate (Strazza et al. 2024 is cited for this value in the manuscript)
+# Reference values taken from the manuscript draft and NOT verified by this repository:
+#  - TCR:pMHC ~13 nm. Cordoba et al. 2013 does not state this value in its text; find the primary source before using it.
+#  - Ig-superfamily pairs ~15 nm. A summary of crystal structures (PMC3123984) reports about 15 nm for many immune
+#    receptor-ligand pairs (10-15 nm range); the manuscript draft's "Strazza 2024" attribution could not be found.
+TCR_PMHC = 13.0   # nm, approximate
+IGSF_PAIRS = 15.0  # nm, approximate
 
-# Verified: Cordoba et al. 2013 (Blood 121:4295-4302) states that low-resolution electron microscopy estimates put the
-# CD45 ectodomain at about 28 to 50 nm depending on the splice isoform. The manuscript draft used ~25 nm.
+# Verified: Cordoba et al. 2013 (Blood 121:4295-4302) reports about 28 nm (smallest isoform) to about 50 nm (largest)
+# for the CD45 ectodomain, from low-resolution electron microscopy (Woollett et al. 1985; McCall et al. 1992).
+# The manuscript draft used ~25 nm.
 CD45_SMALLEST = 28.0  # nm
 
 

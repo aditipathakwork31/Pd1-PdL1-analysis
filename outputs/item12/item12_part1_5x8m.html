@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<title> ChimeraX Log </title>
+<script type="text/javascript">
+window.onload = function() {
+  cxlinks_base="https://www.rbvi.ucsf.edu/chimerax/docs/"
+  if(!window.navigator.userAgent.includes("ChimeraX")){
+    window.onclick = function(e){
+      if(e.target.tagName.toLowerCase()!="a")
+	return true;
+      var url=e.target.getAttribute("href").toLowerCase();
+      if(url.startsWith("help:")){
+	window.location.href = cxlinks_base + url.substring(5);
+	return false;
+      }
+      if(url.startsWith("cxcmd:")){
+	alert("This link only works in a ChimeraX browser and would execute a command.");
+	return false;
+      }
+      return true;
+    }
+    var ls=document.links;
+    for(var i=0;i<ls.length;i++){
+      var link=ls[i];
+      var url=link.getAttribute("href").toLowerCase();
+      if(url.startsWith("cxcmd:"))
+	link.style.color="darkred";
+    }
+  }
+};
+</script>
+<style>
+
+.cxcmd_as_doc {
+    display: inline;
+}
+.cxcmd_as_cmd {
+    display: none;
+}
+</style>
+</head>
+<body>
+<h1> ChimeraX Log </h1>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/version.html">version</a></div><div class="cxcmd_as_cmd"><a href="cxcmd:version">version</a></div></div>UCSF ChimeraX version: 1.13.dev202609011810 (2026-09-01)<br>
+© 2016-2026 Regents of the University of California.  All rights reserved.<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/log.html#save">log save</a> chimerax_version.html</div><div class="cxcmd_as_cmd"><a href="cxcmd:log save chimerax_version.html">log save chimerax_version.html</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/close.html#session">close session</a></div><div class="cxcmd_as_cmd"><a href="cxcmd:close session">close session</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/open.html">open</a> 5x8m</div><div class="cxcmd_as_cmd"><a href="cxcmd:open 5x8m">open 5x8m</a></div></div><i>5x8m</i> title:<br><b>PD-L1 in complex with durvalumab</b> <a href="cxcmd:log metadata #1">[more&nbsp;info...]</a><br><br/><table border=1 cellpadding=4 cellspacing=0>
+  <thead>
+    <tr>
+      <th colspan="3">Chain information for 5x8m #1</th>
+    </tr>
+    <tr>
+      <th>Chain</th>
+      <th>Description</th>
+      <th>UniProt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /A:18-133">A</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/A">Programmed cell death 1 ligand 1</a></td>
+      <td style="text-align:center"><a title="Show annotations" href="cxcmd:open Q9NZQ7 from uniprot associate #1/A">PD1L1_HUMAN</a> <a title="Select sequence" href="cxcmd:select #1/A:18-134">18-134</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /B:1-222">B</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/B">durvalumab heavy chain</a></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /C:2-214">C</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/C">durvalumab light chain</a></td>
+      <td style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table><br/><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#chains">info chains</a> #1</div><div class="cxcmd_as_cmd"><a href="cxcmd:info chains #1">info chains #1</a></div></div>chain id /A chain_id A<br>
+chain id /B chain_id B<br>
+chain id /C chain_id C<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.0)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.0)">select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.0)</a></div></div>139 atoms, 135 bonds, 15 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5x8m_4.0.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5x8m_4.0.txt">info residues sel attribute number saveFile 5x8m_4.0.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.5)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.5)">select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.5)</a></div></div>151 atoms, 146 bonds, 17 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5x8m_4.5.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5x8m_4.5.txt">info residues sel attribute number saveFile 5x8m_4.5.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;5.0)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;5.0)">select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;5.0)</a></div></div>151 atoms, 146 bonds, 17 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5x8m_5.0.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5x8m_5.0.txt">info residues sel attribute number saveFile 5x8m_5.0.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/log.html#save">log save</a> item12_part1_5x8m.html</div><div class="cxcmd_as_cmd"><a href="cxcmd:log save item12_part1_5x8m.html">log save item12_part1_5x8m.html</a></div></div></body>
+</html>
