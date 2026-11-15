@@ -22,12 +22,14 @@ MODEL_MIN, MODEL_MAX = 15.22, 18.10
 # and surface-to-surface conventions (nm).
 SURFACE_OFFSET = 4.0
 
-# Reference values taken from the manuscript draft and NOT verified by this repository:
-#  - TCR:pMHC ~13 nm. Cordoba et al. 2013 does not state this value in its text; find the primary source before using it.
-#  - Ig-superfamily pairs ~15 nm. A summary of crystal structures (PMC3123984) reports about 15 nm for many immune
-#    receptor-ligand pairs (10-15 nm range); the manuscript draft's "Strazza 2024" attribution could not be found.
-TCR_PMHC = 13.0   # nm, approximate
-IGSF_PAIRS = 15.0  # nm, approximate
+# Reference value (secondary source, not re-derived here):
+#  - Immune receptor-ligand complexes (TCR:pMHC, KIR:pMHC, NKG2D:MICA) have an extracellular span of about 10-15 nm
+#    from crystal structures, against about 40 nm for integrin complexes (Alakoskela et al. 2011, Biophys J 100:2865-2874,
+#    PMC3123984). That paper cites Groves 2007 (review), Fan et al. 2001 (KIR2DL1-HLA-Cw4) and Li et al. 2001
+#    (NKG2D-MICA). It does not state the measurement convention (end-to-end or membrane-normal projected length).
+#  - A separate TCR:pMHC value (~13 nm) and an "IgSF pairs ~15 nm" value (draft attribution "Strazza 2024" not found)
+#    were removed because no primary source was verified.
+RL_MIN, RL_MAX = 10.0, 15.0  # nm, range as reported
 
 # Verified: Cordoba et al. 2013 (Blood 121:4295-4302) reports about 28 nm (smallest isoform) to about 50 nm (largest)
 # for the CD45 ectodomain, from low-resolution electron microscopy (Woollett et al. 1985; McCall et al. 1992).
@@ -45,20 +47,18 @@ def main():
     ax.bar(1, shi - slo, bottom=slo, width=0.55, color="#9db3d8", edgecolor="#4c72b0", hatch="/")
     ax.text(1, shi + 0.4, f"~{slo:.1f}-{shi:.1f}", ha="center", va="bottom", fontsize=9)
 
-    for x, v in ((2, TCR_PMHC), (3, IGSF_PAIRS)):
-        ax.bar(x, v, width=0.55, color="#8c8c8c")
-        ax.text(x, v + 0.4, f"~{v:.0f}", ha="center", va="bottom", fontsize=9)
+    ax.bar(2, RL_MAX - RL_MIN, bottom=RL_MIN, width=0.55, color="#8c8c8c")
+    ax.text(2, RL_MAX + 0.4, f"~{RL_MIN:.0f}-{RL_MAX:.0f}", ha="center", va="bottom", fontsize=9)
 
     ax.axhline(CD45_SMALLEST, color="firebrick", linestyle="--", linewidth=1.2)
-    ax.text(3.35, CD45_SMALLEST + 0.5,
+    ax.text(2.35, CD45_SMALLEST + 0.5,
             f"CD45 smallest-isoform ectodomain, ~{CD45_SMALLEST:.0f} nm (range 28-50 nm; sterically excluded, not a bound span)",
             ha="right", va="bottom", fontsize=7.5, color="firebrick")
 
-    ax.set_xticks(range(4))
+    ax.set_xticks(range(3))
     ax.set_xticklabels(["PD-1:PD-L1\n(this work)\nmidplane-to-midplane",
                         "PD-1:PD-L1\n(this work)\napprox. surface-to-surface*",
-                        "TCR:pMHC\n(literature, unverified)",
-                        "IgSF pairs, general\n(literature, unverified)"], fontsize=7.5)
+                        "Immune receptor-ligand\ncomplexes, crystal structures\n(Alakoskela et al. 2011)"], fontsize=7.5)
     ax.set_ylabel("Intermembrane separation (nm)")
     ax.set_ylim(0, 33)
     ax.set_title("Single-conformer model span vs reference values", fontsize=10)
