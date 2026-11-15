@@ -50,7 +50,7 @@ Check that the inputs are right: 4ZQK chain A must be PD-L1 and chain B PD-1; `d
 | `archive/phase5_epitope_mapper.py` | **Superseded.** Pairs ONE antigen copy with the antibody chains of ALL copies, so crystal-packing contacts are counted. It gives 45 residues for pembrolizumab (5B8C chain C) and 40 for atezolizumab (5X8L chain A). The corrected counts (20 to 29 and 24 to 30) come from `src/pd1_pdl1_revision_checks.py epitope`. |
 | `archive/phase6_span_chart.py` | **Superseded.** Draws a single 16.5 nm bar. |
 
-Figure 1 (the modelled span against reference values) is drawn by `src/make_figure1.py` into `outputs/figure1_span_comparison.png`. The script that drew the first version of this figure was not preserved, so this script redraws it. The computed bars use the values in `expected/span_robustness.txt`. The CD45 reference line is at 28 nm, the smallest-isoform value in Cordoba et al. 2013 (the earlier draft used about 25 nm). The TCR:pMHC (about 13 nm) and Ig-superfamily (about 15 nm) bars come from the manuscript draft and are labelled unverified on the figure.
+Figure 1 (the modelled span against reference values) is drawn by `src/make_figure1.py` into `outputs/figure1_span_comparison.png`. The script that drew the first version of this figure was not preserved, so this script redraws it. The computed bars use the values in `expected/span_robustness.txt`. The CD45 reference line is at 28 nm, the smallest-isoform value in Cordoba et al. 2013 (the earlier draft used about 25 nm). The grey bar (about 10-15 nm, immune receptor-ligand complexes from crystal structures) is taken from Alakoskela et al. 2011 (Biophys J 100:2865-2874), a secondary source whose measurement convention is not stated. The draft's separate TCR:pMHC (about 13 nm) and Ig-superfamily (about 15 nm) bars were removed because no primary source was verified.
 
 ## Environment
 
@@ -111,7 +111,7 @@ Python 3.14.7, Biopython 1.88, NumPy 2.5.3, requests 2.34.2, Matplotlib 3.11.2 (
 
 ## Open items
 
-- Verify the TCR:pMHC value (about 13 nm) used in Figure 1, and the measurement convention behind the 10-15 nm receptor-ligand span, against the primary papers.
+- Check the measurement convention behind the 10-15 nm receptor-ligand span (Fan et al. 2001 and Li et al. 2001 structures, via Alakoskela et al. 2011), and look for a primary TCR:pMHC value (for example Choudhuri et al. 2005, Nature 436:578, not yet read) before restoring a separate TCR:pMHC bar.
 - Chain-normalised B-factors for PD-1 residues 71-76 (`src/item13_3rrq_crystal_contacts.cxc` and `src/bfactor_normalised_71_76.py`) have not yet been run to completion, so no result is reported for them.
 - Resolve the placement of the AlphaFold 85-92 loop in the crystal-core hybrid, which is the only source of clashes below 2.0 A (against PD-L1 residues 18-19, and ChimeraX also flags contact with PD-L1 residue 119).
 
