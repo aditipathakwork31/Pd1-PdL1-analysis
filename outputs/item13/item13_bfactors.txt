@@ -1,0 +1,11 @@
+structure chain offset  | z-score (B vs chain mean) at 71 72 73 74 75 76 78 | mean raw B 71-76 (CA / all atoms) | checks
+4ZQK B +0 |  0.65  1.51  1.54  0.97 -0.35 -0.44 -0.89 |  71.7 /  71.5 | numbering OK
+3RRQ A +0 |  0.05  0.45  1.27  1.64  1.17  0.85  0.31 |  68.7 /  70.0 | numbering OK
+5B8C C +0 | -0.27 -0.00  0.36  0.82 -0.15 -0.84 -0.79 |  43.7 /  45.4 | numbering OK
+5B8C F +0 |  0.08  0.72  0.87  1.06  0.01 -0.54 -0.77 |  46.2 /  47.2 | numbering OK
+5B8C I +0 |  0.13  1.14  1.40 -0.14 -0.66 -0.71 -0.90 |  64.7 /  64.4 | numbering OK
+5B8C L +0 |  0.12  0.59  0.50  0.02 -0.41 -0.24 -0.95 |  68.6 /  68.6 | numbering OK
+5WT9 G +0 |  0.00  0.10 -0.25 -0.11 -0.26 -0.20 -0.37 |  71.2 /  69.6 | numbering OK
+
+Manuscript reports mean B of 71-76 as: 72 (4ZQK), 69 (3RRQ), 45-69 (5B8C copies), 70 (5WT9). Compare with the raw columns.
+z > ~1 means the segment is more mobile than that chain's average; around 0 or below means unremarkable.
