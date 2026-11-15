@@ -1,0 +1,165 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<title> ChimeraX Log </title>
+<script type="text/javascript">
+window.onload = function() {
+  cxlinks_base="https://www.rbvi.ucsf.edu/chimerax/docs/"
+  if(!window.navigator.userAgent.includes("ChimeraX")){
+    window.onclick = function(e){
+      if(e.target.tagName.toLowerCase()!="a")
+	return true;
+      var url=e.target.getAttribute("href").toLowerCase();
+      if(url.startsWith("help:")){
+	window.location.href = cxlinks_base + url.substring(5);
+	return false;
+      }
+      if(url.startsWith("cxcmd:")){
+	alert("This link only works in a ChimeraX browser and would execute a command.");
+	return false;
+      }
+      return true;
+    }
+    var ls=document.links;
+    for(var i=0;i<ls.length;i++){
+      var link=ls[i];
+      var url=link.getAttribute("href").toLowerCase();
+      if(url.startsWith("cxcmd:"))
+	link.style.color="darkred";
+    }
+  }
+};
+</script>
+<style>
+
+.cxcmd_as_doc {
+    display: inline;
+}
+.cxcmd_as_cmd {
+    display: none;
+}
+</style>
+</head>
+<body>
+<h1> ChimeraX Log </h1>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/version.html">version</a></div><div class="cxcmd_as_cmd"><a href="cxcmd:version">version</a></div></div>UCSF ChimeraX version: 1.13.dev202609011810 (2026-09-01)<br>
+© 2016-2026 Regents of the University of California.  All rights reserved.<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/log.html#save">log save</a> chimerax_version.html</div><div class="cxcmd_as_cmd"><a href="cxcmd:log save chimerax_version.html">log save chimerax_version.html</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/close.html#session">close session</a></div><div class="cxcmd_as_cmd"><a href="cxcmd:close session">close session</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/open.html">open</a> 5x8m</div><div class="cxcmd_as_cmd"><a href="cxcmd:open 5x8m">open 5x8m</a></div></div><i>5x8m</i> title:<br><b>PD-L1 in complex with durvalumab</b> <a href="cxcmd:log metadata #1">[more&nbsp;info...]</a><br><br/><table border=1 cellpadding=4 cellspacing=0>
+  <thead>
+    <tr>
+      <th colspan="3">Chain information for 5x8m #1</th>
+    </tr>
+    <tr>
+      <th>Chain</th>
+      <th>Description</th>
+      <th>UniProt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /A:18-133">A</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/A">Programmed cell death 1 ligand 1</a></td>
+      <td style="text-align:center"><a title="Show annotations" href="cxcmd:open Q9NZQ7 from uniprot associate #1/A">PD1L1_HUMAN</a> <a title="Select sequence" href="cxcmd:select #1/A:18-134">18-134</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /B:1-222">B</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/B">durvalumab heavy chain</a></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /C:2-214">C</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/C">durvalumab light chain</a></td>
+      <td style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table><br/><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#chains">info chains</a> #1</div><div class="cxcmd_as_cmd"><a href="cxcmd:info chains #1">info chains #1</a></div></div>chain id /A chain_id A<br>
+chain id /B chain_id B<br>
+chain id /C chain_id C<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.0)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.0)">select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.0)</a></div></div>139 atoms, 135 bonds, 15 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5x8m_4.0.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5x8m_4.0.txt">info residues sel attribute number saveFile 5x8m_4.0.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.5)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.5)">select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;4.5)</a></div></div>151 atoms, 146 bonds, 17 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5x8m_4.5.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5x8m_4.5.txt">info residues sel attribute number saveFile 5x8m_4.5.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;5.0)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;5.0)">select /A &amp; protein &amp; ((/B,C &amp; protein) :&lt;5.0)</a></div></div>151 atoms, 146 bonds, 17 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5x8m_5.0.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5x8m_5.0.txt">info residues sel attribute number saveFile 5x8m_5.0.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/log.html#save">log save</a> item12_part1_5x8m.html</div><div class="cxcmd_as_cmd"><a href="cxcmd:log save item12_part1_5x8m.html">log save item12_part1_5x8m.html</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/close.html#session">close session</a></div><div class="cxcmd_as_cmd"><a href="cxcmd:close session">close session</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/open.html">open</a> 5grj</div><div class="cxcmd_as_cmd"><a href="cxcmd:open 5grj">open 5grj</a></div></div><i>5grj</i> title:<br><b>Crystal structure of human PD-L1 with monoclonal antibody avelumab</b> <a href="cxcmd:log metadata #1">[more&nbsp;info...]</a><br><br/><table border=1 cellpadding=4 cellspacing=0>
+  <thead>
+    <tr>
+      <th colspan="3">Chain information for 5grj #1</th>
+    </tr>
+    <tr>
+      <th>Chain</th>
+      <th>Description</th>
+      <th>UniProt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /A:18-233">A</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/A">Programmed cell death 1 ligand 1</a></td>
+      <td style="text-align:center"><a title="Show annotations" href="cxcmd:open Q9NZQ7 from uniprot associate #1/A">PD1L1_HUMAN</a> <a title="Select sequence" href="cxcmd:select #1/A:18-238">18-238</a></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /H:1-118">H</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/H">avelumab H chain</a></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /L:2-109">L</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/L">avelumab L chain</a></td>
+      <td style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table><br/>3398 atoms have anisotropic B-factors.  Depict anisotropic information with <b><a href="cxcmd:help help:user/tools/thermalellipsoids.html">Thermal Ellipsoids</a></b> [<a href="cxcmd:ui tool show 'Thermal Ellipsoids'">start&nbsp;tool...</a>] or the <b><a href="cxcmd:help aniso">aniso</a></b> command.<br/><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#chains">info chains</a> #1</div><div class="cxcmd_as_cmd"><a href="cxcmd:info chains #1">info chains #1</a></div></div>chain id /H chain_id H<br>
+chain id /L chain_id L<br>
+chain id /A chain_id A<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;4.0)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;4.0)">select /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;4.0)</a></div></div>152 atoms, 143 bonds, 17 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5grj_4.0.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5grj_4.0.txt">info residues sel attribute number saveFile 5grj_4.0.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;4.5)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;4.5)">select /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;4.5)</a></div></div>177 atoms, 167 bonds, 20 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5grj_4.5.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5grj_4.5.txt">info residues sel attribute number saveFile 5grj_4.5.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;5.0)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;5.0)">select /A &amp; protein &amp; ((/H,L &amp; protein) :&lt;5.0)</a></div></div>194 atoms, 186 bonds, 22 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5grj_5.0.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5grj_5.0.txt">info residues sel attribute number saveFile 5grj_5.0.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/log.html#save">log save</a> item12_part2_5grj.html</div><div class="cxcmd_as_cmd"><a href="cxcmd:log save item12_part2_5grj.html">log save item12_part2_5grj.html</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/close.html#session">close session</a></div><div class="cxcmd_as_cmd"><a href="cxcmd:close session">close session</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/open.html">open</a> 5b8c</div><div class="cxcmd_as_cmd"><a href="cxcmd:open 5b8c">open 5b8c</a></div></div><i>5b8c</i> title:<br><b>High resolution structure of the human PD-1 in complex with pembrolizumab Fv</b> <a href="cxcmd:log metadata #1">[more&nbsp;info...]</a><br><br/><table border=1 cellpadding=4 cellspacing=0>
+  <thead>
+    <tr>
+      <th colspan="3">Chain information for 5b8c #1</th>
+    </tr>
+    <tr>
+      <th>Chain</th>
+      <th>Description</th>
+      <th>UniProt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /A:1-111">A</a> <a title="Select chain" href="cxcmd:select /D:1-111">D</a> <a title="Select chain" href="cxcmd:select /G:1-111">G</a> <a title="Select chain" href="cxcmd:select /J:1-111">J</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/A#1/D#1/G#1/J">Pembrolizumab light chain variable region (PemVL)</a></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /B:1-120">B</a> <a title="Select chain" href="cxcmd:select /E:1-120">E</a> <a title="Select chain" href="cxcmd:select /H:1-120">H</a> <a title="Select chain" href="cxcmd:select /K:1-120">K</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/B#1/E#1/H#1/K">Pembrolizumab heavy chain variable region (PemVH)</a></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center"><a title="Select chain" href="cxcmd:select /C:31-146">C</a> <a title="Select chain" href="cxcmd:select /F:31-146">F</a> <a title="Select chain" href="cxcmd:select /I:31-146">I</a> <a title="Select chain" href="cxcmd:select /L:31-146">L</a></td>
+      <td><a title="Show sequence" href="cxcmd:sequence chain #1/C#1/F#1/I#1/L">Programmed cell death protein 1</a></td>
+      <td style="text-align:center"><a title="Show annotations" href="cxcmd:open Q15116 from uniprot associate #1/C,F,I,L">PDCD1_HUMAN</a> <a title="Select sequence" href="cxcmd:select #1/C,F,I,L:32-160">32-160</a></td>
+    </tr>
+  </tbody>
+</table><br/><table border=1 cellpadding=4 cellspacing=0>
+<tr><th colspan=3>5b8c mmCIF Assemblies
+<tr><td><a title="Generate assembly" href="cxcmd:sym #1 assembly 1 ; view">1</a><td>author_and_software_defined_assembly
+<tr><td><a title="Generate assembly" href="cxcmd:sym #1 assembly 2 ; view">2</a><td>author_and_software_defined_assembly
+<tr><td><a title="Generate assembly" href="cxcmd:sym #1 assembly 3 ; view">3</a><td>author_and_software_defined_assembly
+<tr><td><a title="Generate assembly" href="cxcmd:sym #1 assembly 4 ; view">4</a><td>author_and_software_defined_assembly
+</table><br/>10587 atoms have anisotropic B-factors.  Depict anisotropic information with <b><a href="cxcmd:help help:user/tools/thermalellipsoids.html">Thermal Ellipsoids</a></b> [<a href="cxcmd:ui tool show 'Thermal Ellipsoids'">start&nbsp;tool...</a>] or the <b><a href="cxcmd:help aniso">aniso</a></b> command.<br/><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#chains">info chains</a> #1</div><div class="cxcmd_as_cmd"><a href="cxcmd:info chains #1">info chains #1</a></div></div>chain id /A chain_id A<br>
+chain id /B chain_id B<br>
+chain id /C chain_id C<br>
+chain id /D chain_id D<br>
+chain id /E chain_id E<br>
+chain id /F chain_id F<br>
+chain id /G chain_id G<br>
+chain id /H chain_id H<br>
+chain id /I chain_id I<br>
+chain id /J chain_id J<br>
+chain id /K chain_id K<br>
+chain id /L chain_id L<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /C &amp; protein &amp; ((/A,B &amp; protein) :&lt;4.5)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /C &amp; protein &amp; ((/A,B &amp; protein) :&lt;4.5)">select /C &amp; protein &amp; ((/A,B &amp; protein) :&lt;4.5)</a></div></div>202 atoms, 197 bonds, 27 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5b8c_C_own.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5b8c_C_own.txt">info residues sel attribute number saveFile 5b8c_C_own.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /C &amp; protein &amp; ((/A,B,D,E,G,H,J,K &amp; protein) :&lt;4.5)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /C &amp; protein &amp; ((/A,B,D,E,G,H,J,K &amp; protein) :&lt;4.5)">select /C &amp; protein &amp; ((/A,B,D,E,G,H,J,K &amp; protein) :&lt;4.5)</a></div></div>340 atoms, 333 bonds, 45 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5b8c_C_all.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5b8c_C_all.txt">info residues sel attribute number saveFile 5b8c_C_all.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/select.html">select</a> /I &amp; protein &amp; ((/G,H &amp; protein) :&lt;4.5)</div><div class="cxcmd_as_cmd"><a href="cxcmd:select /I &amp; protein &amp; ((/G,H &amp; protein) :&lt;4.5)">select /I &amp; protein &amp; ((/G,H &amp; protein) :&lt;4.5)</a></div></div>172 atoms, 169 bonds, 23 residues, 1 model selected<br>
+<div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/info.html#residues">info residues</a> sel attribute number saveFile 5b8c_I_own.txt</div><div class="cxcmd_as_cmd"><a href="cxcmd:info residues sel attribute number saveFile 5b8c_I_own.txt">info residues sel attribute number saveFile 5b8c_I_own.txt</a></div></div><div class="cxcmd"><div class="cxcmd_as_doc"><a href="help:user/commands/log.html#save">log save</a> item12_part3_5b8c.html</div><div class="cxcmd_as_cmd"><a href="cxcmd:log save item12_part3_5b8c.html">log save item12_part3_5b8c.html</a></div></div></body>
+</html>

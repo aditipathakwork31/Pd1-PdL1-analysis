@@ -1,0 +1,17 @@
+residue id /A:23 number 23 index 5
+residue id /A:26 number 26 index 8
+residue id /A:56 number 56 index 38
+residue id /A:58 number 58 index 40
+residue id /A:59 number 59 index 41
+residue id /A:60 number 60 index 42
+residue id /A:61 number 61 index 43
+residue id /A:111 number 111 index 93
+residue id /A:112 number 112 index 94
+residue id /A:113 number 113 index 95
+residue id /A:115 number 115 index 97
+residue id /A:121 number 121 index 103
+residue id /A:122 number 122 index 104
+residue id /A:123 number 123 index 105
+residue id /A:124 number 124 index 106
+residue id /A:125 number 125 index 107
+residue id /A:127 number 127 index 109
